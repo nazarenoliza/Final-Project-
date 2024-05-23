@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fcc5e9;
+    color: #111111;
+}
+
+/* Header Styles */
+header {
+    background: #0c0c0c;
+    color: #fccdf9;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #f7f9fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 2rem;
+}
+
+/* Blog Section */
+#blog {
+    background: #fdf9fc;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(251, 252, 252, 0.1);
+}
+
+#blog h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+article h2 {
+    color: #080808;
+    margin-bottom: 0.5rem;
+}
+
+article p {
+    margin: 0.5rem 0;
+}
+
+article p:first-of-type {
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* Footer Styles */
+footer {
+    background: #feffff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

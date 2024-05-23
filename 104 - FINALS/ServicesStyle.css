@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fcd0f4;
+    color: #0c0c0c;
+}
+
+/* Header Styles */
+header {
+    background: #0a0a0a;
+    color: #fcc7ec;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 2rem;
+}
+
+/* Services Section */
+#services {
+    background: #fcf7fb;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#services h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#services p {
+    margin: 0.5rem 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
